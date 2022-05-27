@@ -5,7 +5,6 @@ body {
 }
 
 container {
-  height: 100vh;
   display: grid;
   grid-template-areas:
   'navbar navbar'
@@ -22,7 +21,7 @@ navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 19px;
+  font-size: 1.188rem;
   font-weight: 300;
 }
 
@@ -36,7 +35,7 @@ sidebar {
 sidebar ul {
   padding: 0px;
   margin: 0px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
 }
 
@@ -115,13 +114,13 @@ main {
 .name {
   padding: 5px 0;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .price {
   padding: 5px 0 10px 0;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 
 .card button {
